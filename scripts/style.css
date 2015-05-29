@@ -11,10 +11,9 @@
 
 #savedStuff {
 	border: 1px solid turquoise;
-	margin-top: 30px;
+	margin-top: 10px;
 	width: 20em;
 	height: 10em;
-	display: block;
 
 }
 #button {
@@ -22,7 +21,7 @@
 	background-color: violet; 
 	border-radius: 25px;
 }
-h2 {
+p {
 	color: black;
-	margin-bottom: 5px;
+	margin-bottom: -8px;
 }

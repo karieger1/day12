@@ -1,0 +1,16 @@
+{
+  "name": "jquery",
+  "version": "0.0.0",
+  "homepage": "https://github.com/karieger1/day12",
+  "authors": [
+    "Kristen Rieger <karieger1@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
