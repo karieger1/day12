@@ -4,6 +4,7 @@ function start(e) {
 
     var $inputBox = $("#inputBox");
     var $todoButton = $("button");
+    var $line = 1;
     
     var $savedStuff = $('#savedStuff');
     var $list = $('#list');
@@ -22,9 +23,9 @@ function start(e) {
         $list.html(listHtml); 
     }
 
-    $('#list').on('click', 'li', check);
+ $('#list').on('click', 'li', strike);
 
-    function check() {
+    function strike() {
         $(this).toggleClass('strikethrough');
     }
 

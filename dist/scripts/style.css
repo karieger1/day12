@@ -7,6 +7,8 @@
 #inputBox {
 	background-color: lightblue;
 	border: solid black 1px;
+	clear: both;
+	display: block;
 }
 
 #savedStuff {
@@ -24,4 +26,7 @@
 p {
 	color: black;
 	margin-bottom: -8px;
+}
+#strikethrough {
+    text-decoration: line-through;
 }
