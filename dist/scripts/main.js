@@ -29,12 +29,23 @@ function appendMessage() {
 var newStuff = [];
 var messageBox  = document.getElementById("savedStuff");
 
-function render() {
-	newStuffInput.value = ""; //get value of input
-  	messageBox.innerHTML = ""; //clear input box
-  	savedStuff.join([" ,"]) //not working?
-  	//not sure i understood the directions of step 5 very well
+function render(todoList) {
+		return '<ul><li class = "todo">'+todoList.join('</li><li>')+'</li></ul>';
+	}
+
+function strikethrough(event) {
+	var target= $(event.target);
+	if (target.is("li")) {
+		target.style.css('text-decoration', 'underline');
 }
+
+
+// function strikethrough(e) {
+// 		var i = e.target;
+// 		// through(i);
+// 		(e.target).style.textDecoration = "line-through";
+// 	}
+
 
 //my attempt at "hard mode"
  // Listen for changes in the text field

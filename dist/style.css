@@ -4,19 +4,7 @@
 	height: 10em;
 
 }
-#inputBox {
-	background-color: lightblue;
-	border: solid black 1px;
-}
 
-#savedStuff {
-	border: 1px solid turquoise;
-	margin-top: 30	px;
-	width: 20em;
-	height: 10em;
-	display: block;
-
-}
 #button {
 	border: solid black 1px;
 	background-color: violet; 
