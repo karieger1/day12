@@ -4,13 +4,24 @@
 	height: 10em;
 
 }
+#inputBox {	
+	border: solid turquoise 3px;
+}
 
 #button {
 	border: solid black 1px;
 	background-color: violet; 
 	border-radius: 25px;
+	clear:both;
 }
-h2 {
+p {
 	color: black;
-	margin-bottom: 5px;
+	margin-bottom: -8px;
+}
+
+#list:hover {
+	cursor: pointer;
+}
+.strikethrough {
+    text-decoration: line-through;
 }
